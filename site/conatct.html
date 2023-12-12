@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMI Découvertes</title>
+</head>
+<body>
+    <div id="bandeau">
+        <h1>Contact</h1>
+        <form action="formulaire.php" method="post">
+            <label for="civilie">Civilié : </label>
+                <select name="civilité" id="civilite">
+                    <option value="homme">Homme</option>
+                    <option value="femme">Femme</option>
+                    <option value="autre">Autre</option>
+                </select>
+                <br>
+            <label for="name" id="nom">Nom : </label>
+            <input type="text" id="nom">
+            <br>
+            <label for="firstname" id="prénom">Prénom : </label>
+            <input type="text" id="prénom">
+            <br>
+            <label for="adress" id="adresse">Adresse : </label>
+            <input type="text" id="adresse">
+            <br>
+            <label for="birth" id="date_de_naissance">Date de naissance : </label>
+            <input type="date" id="date_de_naissance">
+            <br>
+            <label for="email" id="email">Adresse mail : </label>
+            <input type="text" id="email">
+            <br>
+            <label for="lieu" id="lieu">Lieu de voayge envisagé : </label>
+            <img src="images/contact/carte_contact.png" alt="" usemap="carte_contact">
+            <map name="carte_contact">
+                <area shape="circle" coords="200,250,25" alt="exemple de cercle" />
+            </map>
+
+        </form>
+    </div>
+</body>
+</html>
